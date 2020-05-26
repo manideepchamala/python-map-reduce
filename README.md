@@ -38,6 +38,14 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ```
 
+To process large data file the following commands are used:
+```
+cat purchases.txt
+cat purchases.txt | python 21mapper.py
+cat purchases.txt | python 21mapper.py | sort
+cat purchases.txt | python 21mapper.py | sort  | python 22reducer.py
+```
+
 ## References
 
 - [Udacity "Introduction to Hadoop and MapReduce"](https://classroom.udacity.com/courses/ud617/)
@@ -46,4 +54,4 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ## Repository
 
-- [https://github.com/denisecase/python-map-reduce](https://github.com/denisecase/python-map-reduce)
+- [https://github.com/manideepchamala/python-map-reduce](https://github.com/manideepchamala/python-map-reduce)
